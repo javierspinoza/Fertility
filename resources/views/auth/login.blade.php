@@ -59,7 +59,7 @@
                             </div>
                             <div class="card-body">
                                 <x-validation-errors class="mb-4" />
-                                <form method="POST" action="{{ route('login') }}" role="form" class="text-start">
+                                <form method="POST" action="{{ secure_url(route('login', [], false)) }}" role="form" class="text-start">
                                     @csrf
                                     <div class="input-group input-group-outline my-3">
                                         <label class="form-label">Email</label>
