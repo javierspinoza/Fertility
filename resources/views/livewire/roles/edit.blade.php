@@ -1,6 +1,6 @@
 @push('micss')
     <!-- iCheck for checkboxes and radio inputs -->
-    <link rel="stylesheet" href="{{ asset('assetsDashboard/plugins/icheck-bootstrap/icheck-bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assetsDashboard/plugins/icheck-bootstrap/icheck-bootstrap.min.css') }}">
 @endpush
 @can('role_admin')
     <div class="content-wrapper">

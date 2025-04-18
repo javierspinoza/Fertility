@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assetsDashboard/assetsHome/login/img/LogoPro.png') }}">
-    <link rel="icon" type="image/png" href="{{ asset('assetsDashboard/assetsHome/login/img/LogoSpinoza.png') }}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ secure_asset('assetsDashboard/assetsHome/login/img/LogoPro.png') }}">
+    <link rel="icon" type="image/png" href="{{ secure_asset('assetsDashboard/assetsHome/login/img/LogoSpinoza.png') }}">
     <title>
         FERTILITY
     </title>
@@ -13,8 +13,8 @@
     <link rel="stylesheet" type="text/css"
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
     <!-- Nucleo Icons -->
-    <link href="{{ asset('assetsDashboard/assetsHome/login/css/nucleo-icons.css') }}" rel="stylesheet" />
-    <link href="{{ asset('assetsDashboard/assetsHome/login/css/nucleo-svg.css') }}" rel="stylesheet" />
+    <link href="{{ secure_asset('assetsDashboard/assetsHome/login/css/nucleo-icons.css') }}" rel="stylesheet" />
+    <link href="{{ secure_asset('assetsDashboard/assetsHome/login/css/nucleo-svg.css') }}" rel="stylesheet" />
     <!-- Font Awesome Icons -->
     <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -22,14 +22,14 @@
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
     <!-- CSS Files -->
-    <link id="pagestyle" href="{{ asset('assetsDashboard/assetsHome/login/css/material-dashboard.min.css') }}" rel="stylesheet" />
+    <link id="pagestyle" href="{{ secure_asset('assetsDashboard/assetsHome/login/css/material-dashboard.min.css') }}" rel="stylesheet" />
 </head>
 
 <body class="bg-gray-200">
 
     <main class="main-content  mt-0">
         <div class="page-header align-items-start min-vh-50 m-3 border-radius-lg"
-            style="background-image: url('{{ asset('assetsDashboard/assetsHome/login/img/recovery.jpg') }}');">
+            style="background-image: url('{{ secure_asset('assetsDashboard/assetsHome/login/img/recovery.jpg') }}');">
             <span class="mask bg-gradient-dark opacity-6"></span>
         </div>
         <div class="container mb-4">
@@ -127,10 +127,10 @@
     </script>
 
     <!--   Core JS Files   -->
-    <script src="{{ asset('assetsDashboard/assetsHome/login/js/core/popper.min.js') }}"></script>
-    <script src="{{ asset('assetsDashboard/assetsHome/login/js/core/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('assetsDashboard/assetsHome/login/js/plugins/perfect-scrollbar.min.js') }}"></script>
-    <script src="{{ asset('assetsDashboard/assetsHome/login/js/plugins/smooth-scrollbar.min.js') }}"></script>
+    <script src="{{ secure_asset('assetsDashboard/assetsHome/login/js/core/popper.min.js') }}"></script>
+    <script src="{{ secure_asset('assetsDashboard/assetsHome/login/js/core/bootstrap.min.js') }}"></script>
+    <script src="{{ secure_asset('assetsDashboard/assetsHome/login/js/plugins/perfect-scrollbar.min.js') }}"></script>
+    <script src="{{ secure_asset('assetsDashboard/assetsHome/login/js/plugins/smooth-scrollbar.min.js') }}"></script>
     <script>
         var win = navigator.platform.indexOf('Win') > -1;
         if (win && document.querySelector('#sidenav-scrollbar')) {
@@ -143,7 +143,7 @@
     <!-- Github buttons -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
-    <script src="{{ asset('assetsDashboard/assetsHome/login/js/material-dashboard.min.js') }}"></script>
+    <script src="{{ secure_asset('assetsDashboard/assetsHome/login/js/material-dashboard.min.js') }}"></script>
 </body>
 
 </html>
