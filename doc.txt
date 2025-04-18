@@ -1,2 +1,2 @@
 para productico cambie asset por secure_asset
-para los formularios 
+para los formularios estaba {{ route('login') }} lo cambie por {{ secure_url(route('login', [], false)) }}
