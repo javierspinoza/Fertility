@@ -82,7 +82,7 @@
 </div>
 @push('mijs')
     {{-- sweetalert2 CDN --}}
-    <script src="{{ secure_asset('assetsDashboard/dist/js/sweetalert2.js') }}"></script>
+    <script src="{{ asset('assetsDashboard/dist/js/sweetalert2.js') }}"></script>
     {{-- alerta para maracar notificaciones como leidas --}}
     @if (session('readok'))
         <script>

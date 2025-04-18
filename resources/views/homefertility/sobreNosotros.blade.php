@@ -22,7 +22,7 @@
     <meta property="og:image:type" content="image/png" />
     <meta name="twitter:card" content="summary_large_image" />
 
-    <link rel="icon" href="{{ secure_asset('homefertility/imagenes/logo_fertility.jpg') }}">
+    <link rel="icon" href="{{ asset('homefertility/imagenes/logo_fertility.jpg') }}">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
@@ -184,7 +184,7 @@
             text-decoration: none
         }
     </style>
-    {{-- <link id='global-styles-inline-css' type='text/css' rel="stylesheet" href="{{ secure_asset('homeferti64454lity/micss/global_style.css') }}"> --}}
+    {{-- <link id='global-styles-inline-css' type='text/css' rel="stylesheet" href="{{ asset('homeferti64454lity/micss/global_style.css') }}"> --}}
     {{-- <style id='global-styles-inline-css' type='text/css'>
         
     </style> --}}
@@ -205,7 +205,7 @@
     {{-- <link rel='stylesheet' id='font-awesome-shims-css'
         href='https://www.laboratorioserma.com/wp-content/themes/healthflex/assets/fonts/font-awesome/css/v4-shims.min.css?ver=de437bae823a7bd743fd934ee441be99'
         type='text/css' media='all' /> --}}
-    <link rel='stylesheet' id='owlcarousel2-theme-css' href='{{ secure_asset('homefertility/micss/owl.theme.default.css') }}'
+    <link rel='stylesheet' id='owlcarousel2-theme-css' href='{{ asset('homefertility/micss/owl.theme.default.css') }}'
         type='text/css' media='all' />
     <link rel='stylesheet' id='owlcarousel2-css' href='homefertility/micss/owl.carousel.css' type='text/css'
         media='all' />
@@ -215,7 +215,7 @@
     {{-- <link rel='stylesheet' id='animate-css'
         href='https://www.laboratorioserma.com/wp-content/themes/healthflex/includes/core/assets/css/libs/animate/animate.min.css?ver=de437bae823a7bd743fd934ee441be99'
         type='text/css' media='all' /> --}}
-    <link rel='stylesheet' id='plethora-dynamic-style-css' href='{{ secure_asset('homefertility/micss/style.min.css') }}'
+    <link rel='stylesheet' id='plethora-dynamic-style-css' href='{{ asset('homefertility/micss/style.min.css') }}'
         type='text/css' media='all' />
     {{-- <link rel='stylesheet' id='plethora-style-css'
         href='https://www.laboratorioserma.com/wp-content/themes/healthflex/style.css?ver=de437bae823a7bd743fd934ee441be99'
@@ -241,7 +241,7 @@
         src="https://www.laboratorioserma.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js">
     </script> --}}
     {{-- <script type="text/javascript" src="https://stats.wp.com/w.js?ver=202410" id="woo-tracks-js"></script> --}}
-    <script type="text/javascript" src="{{ secure_asset('homefertility/mijs/jquery.min.js') }}" id="jquery-core-js"></script>
+    <script type="text/javascript" src="{{ asset('homefertility/mijs/jquery.min.js') }}" id="jquery-core-js"></script>
     {{-- <script type="text/javascript"
         src="https://www.laboratorioserma.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
     </script> --}}
@@ -371,7 +371,7 @@
                 <div class="container">
                     <div class="logo">
                         <a href="#!" class="brand">
-                            <img src="{{ secure_asset('homefertility/imagenes/fertility_logo.png') }}" alt="HealthFlex">
+                            <img src="{{ asset('homefertility/imagenes/fertility_logo.png') }}" alt="HealthFlex">
                         </a>
                     </div> <a title="" href="#" class="social_links"><i class="fa fa-share-alt"></i></a>
                     <div class="team_social"><a href="#" title="Facebook"><i
@@ -408,7 +408,7 @@
         <div class="head_panel">
 
             <div class="full_width_photo bg_vtop parallax-window " data-parallax="scroll"
-                data-image-src="{{ secure_asset('homefertility/imagenes/image1.png') }}" data-position="center top">
+                data-image-src="{{ asset('homefertility/imagenes/image1.png') }}" data-position="center top">
 
 
                 <div class="hgroup">
@@ -507,16 +507,16 @@
                                     <div class="wpb_wrapper">
                                         <p><img decoding="async" class="alignnone size-full wp-image-1965"
                                                 src="#!" alt="" width="150" height="150"
-                                                srcset="{{ secure_asset('homefertility/imagenes/image26.png') }} 150w, {{ secure_asset('homefertility/imagenes/image26.png') }} 100w"
+                                                srcset="{{ asset('homefertility/imagenes/image26.png') }} 150w, {{ asset('homefertility/imagenes/image26.png') }} 100w"
                                                 sizes="(max-width: 150px) 100vw, 150px" />
                                             <img decoding="async" class="alignnone size-medium wp-image-1966"
                                                 src="#!" alt="" width="150" height="150"
-                                                srcset="{{ secure_asset('homefertility/imagenes/bienestar_animal26.png') }} 150w,"
+                                                srcset="{{ asset('homefertility/imagenes/bienestar_animal26.png') }} 150w,"
                                                 sizes="(max-width: 150px) 100vw, 150px" />
                                             <img loading="lazy" decoding="async"
                                                 class="alignnone size-medium wp-image-1967" src="#!"
                                                 alt="" width="150" height="150"
-                                                srcset="{{ secure_asset('homefertility/imagenes/image27.png') }} 150w, {{ secure_asset('homefertility/imagenes/image27.png') }} 100w"
+                                                srcset="{{ asset('homefertility/imagenes/image27.png') }} 150w, {{ asset('homefertility/imagenes/image27.png') }} 100w"
                                                 sizes="(max-width: 150px) 100vw, 150px" />
                                         </p>
 
@@ -712,7 +712,7 @@
                                     <li class="media">
 
                                         <a href="#!" class="media-photo"
-                                            style="background-image:url('{{ secure_asset('homefertility/imagenes/image24.png') }}')"></a>
+                                            style="background-image:url('{{ asset('homefertility/imagenes/image24.png') }}')"></a>
 
                                         <h5 class="media-heading">
                                             <a href="#!">
@@ -726,7 +726,7 @@
                                     <li class="media">
 
                                         <a href="#!" class="media-photo"
-                                            style="background-image:url('{{ secure_asset('homefertility/imagenes/image25.png') }}')"></a>
+                                            style="background-image:url('{{ asset('homefertility/imagenes/image25.png') }}')"></a>
 
                                         <h5 class="media-heading">
                                             <a href="#!">Hidratación
@@ -739,7 +739,7 @@
                                     <li class="media">
 
                                         <a href="#!" class="media-photo"
-                                            style="background-image:url('{{ secure_asset('homefertility/imagenes/image26.png') }}')"></a>
+                                            style="background-image:url('{{ asset('homefertility/imagenes/image26.png') }}')"></a>
 
                                         <h5 class="media-heading">
                                             <a href="#!">Mastitis
@@ -1205,8 +1205,8 @@
     <script type="text/javascript"
         src="https://www.laboratorioserma.com/wp-content/themes/healthflex/includes/core/assets/js/libs/totop/jquery.ui.totop.js?ver=de437bae823a7bd743fd934ee441be99"
         id="plethora-totop-js"></script> --}}
-    <script type="text/javascript" src="{{ secure_asset('homefertility/mijs/parallax.min.js') }}" id="parallax-js"></script>
-    <script type="text/javascript" src="{{ secure_asset('homefertility/mijs/owl.carousel.min.js') }}" id="owlcarousel2-js">
+    <script type="text/javascript" src="{{ asset('homefertility/mijs/parallax.min.js') }}" id="parallax-js"></script>
+    <script type="text/javascript" src="{{ asset('homefertility/mijs/owl.carousel.min.js') }}" id="owlcarousel2-js">
     </script>
     {{-- <script type="text/javascript"
         src="https://www.laboratorioserma.com/wp-content/themes/healthflex/assets/js/libs/bootstrap.min.js?ver=de437bae823a7bd743fd934ee441be99"
@@ -1263,7 +1263,7 @@
         /* ]]> */
     </script>
     <script type="text/javascript"
-        src="{{ secure_asset('homefertility/mijs/theme.js') }}"
+        src="{{ asset('homefertility/mijs/theme.js') }}"
         id="plethora-init-js"></script>
     {{-- <script type="text/javascript"
         src="https://www.laboratorioserma.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.13.0"
