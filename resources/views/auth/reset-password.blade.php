@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="{{ secure_asset('assetsDashboard/assetsHome/resetpassword/micss.css') }}">
+    <link rel="stylesheet" href="{{ asset('assetsDashboard/assetsHome/resetpassword/micss.css') }}">
     <title>Fertility Colombia</title>
 </head>
 
@@ -51,14 +51,14 @@
                         Ingresa tu nueva contraseña
                     </p>
                 </div>
-                <img src="{{ secure_asset('assetsDashboard/assetsHome/resetpassword/img/log.svg') }}" class="image"
+                <img src="{{ asset('assetsDashboard/assetsHome/resetpassword/img/log.svg') }}" class="image"
                     alt="" />
             </div>
         </div>
     </div>
 
     <script src="app.js"></script>
-    <script src="{{ secure_asset('assetsDashboard/assetsHome/resetpassword/mijs.js') }}"></script>
+    <script src="{{ asset('assetsDashboard/assetsHome/resetpassword/mijs.js') }}"></script>
 </body>
 
 </html>

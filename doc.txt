@@ -1,0 +1,2 @@
+para productico cambie asset por secure_asset
+para los formularios 

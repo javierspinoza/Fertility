@@ -116,7 +116,7 @@
 </div>
 @push('mijs')
     {{-- sweetalert2 CDN --}}
-    <script src="{{ secure_asset('assetsDashboard/dist/js/sweetalert2.js') }}"></script>
+    <script src="{{ asset('assetsDashboard/dist/js/sweetalert2.js') }}"></script>
     {{-- alerta para eliminar registros --}}
     <script>
         window.addEventListener('confirmDeletion', function() {

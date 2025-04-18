@@ -23,12 +23,12 @@
     <meta name="twitter:card" content="summary_large_image" />
     <!-- / Yoast SEO plugin. -->
 
-    <link rel="icon" href="{{ secure_asset('homefertility/imagenes/logo_fertility.jpg') }}">
+    <link rel="icon" href="{{ asset('homefertility/imagenes/logo_fertility.jpg') }}">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script type="text/javascript" src="{{ secure_asset('homefertility/mijs/iniciodev.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('homefertility/mijs/iniciodev.js') }}"></script>
     <style id='wp-emoji-styles-inline-css' type='text/css'>
         img.wp-smiley,
         img.emoji {
@@ -66,12 +66,12 @@
             visibility: visible;
         }
     </style>
-    <link rel='stylesheet' id='owlcarousel2-css' href='{{ secure_asset('homefertility/micss/owl.carousel.css') }}'
+    <link rel='stylesheet' id='owlcarousel2-css' href='{{ asset('homefertility/micss/owl.carousel.css') }}'
         type='text/css' media='all' />
-    <link rel='stylesheet' id='owlcarousel2-theme-css' href='{{ secure_asset('homefertility/micss/owl.theme.default.css') }}'
+    <link rel='stylesheet' id='owlcarousel2-theme-css' href='{{ asset('homefertility/micss/owl.theme.default.css') }}'
         type='text/css' media='all' />
     {{-- <link rel='stylesheet' id='js_composer_front-css'
-        href='{{ secure_asset('homefertility/micss/js_composer.min.css') }}'
+        href='{{ asset('homefertility/micss/js_composer.min.css') }}'
         type='text/css' media='all' /> --}}
     {{-- <link rel='stylesheet' id='plethora-icons-css'
         href='https://www.laboratorioserma.com/wp-content/uploads/plethora/plethora_icons.css?uniqeid=658076cea7017&#038;ver=6.4.3'
@@ -82,12 +82,12 @@
     {{-- <link rel='stylesheet' id='font-awesome-shims-css'
         href='https://www.laboratorioserma.com/wp-content/themes/healthflex/assets/fonts/font-awesome/css/v4-shims.min.css?ver=de437bae823a7bd743fd934ee441be99'
         type='text/css' media='all' /> --}}
-    <link rel='stylesheet' id='plethora-woocommerce-css' href='{{ secure_asset('homefertility/micss/woocommerce.css') }}'
+    <link rel='stylesheet' id='plethora-woocommerce-css' href='{{ asset('homefertility/micss/woocommerce.css') }}'
         type='text/css' media='all' />
     {{-- <link rel='stylesheet' id='animate-css'
         href='https://www.laboratorioserma.com/wp-content/themes/healthflex/includes/core/assets/css/libs/animate/animate.min.css?ver=de437bae823a7bd743fd934ee441be99'
         type='text/css' media='all' /> --}}
-    <link rel='stylesheet' id='plethora-dynamic-style-css' href='{{ secure_asset('homefertility/micss/style.min.css') }}'
+    <link rel='stylesheet' id='plethora-dynamic-style-css' href='{{ asset('homefertility/micss/style.min.css') }}'
         type='text/css' media='all' />
     {{-- <link rel='stylesheet' id='plethora-style-css'
         href='https://www.laboratorioserma.com/wp-content/themes/healthflex/style.css?ver=de437bae823a7bd743fd934ee441be99'
@@ -113,7 +113,7 @@
         src="https://www.laboratorioserma.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js">
     </script> --}}
     {{-- <script type="text/javascript" src="https://stats.wp.com/w.js?ver=202410" id="woo-tracks-js"></script> --}}
-    <script type="text/javascript" src="{{ secure_asset('homefertility/mijs/jquery.min.js') }}" id="jquery-core-js"></script>
+    <script type="text/javascript" src="{{ asset('homefertility/mijs/jquery.min.js') }}" id="jquery-core-js"></script>
     {{-- <script type="text/javascript"
         src="https://www.laboratorioserma.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
     </script> --}}
@@ -272,7 +272,7 @@
                 <div class="container">
                     <div class="logo">
                         <a href="#!" class="brand">
-                            <img src="{{ secure_asset('homefertility/imagenes/fertility_logo.png') }}" alt="HealthFlex">
+                            <img src="{{ asset('homefertility/imagenes/fertility_logo.png') }}" alt="HealthFlex">
                         </a>
                     </div> <a title="" href="#" class="social_links"><i class="fa fa-share-alt"></i></a>
                     <div class="team_social"><a href="#" title="Facebook"><i
@@ -315,7 +315,7 @@
 
                     <div class="stretchy_wrapper ratio_slider">
 
-                        <div style="background-image: url({{ secure_asset('homefertility/imagenes/image0.png') }});"
+                        <div style="background-image: url({{ asset('homefertility/imagenes/image0.png') }});"
                             aria-hidden="true" class="item  foo foo foo">
                             <div class="container">
 
@@ -352,7 +352,7 @@
 
                     <div class="stretchy_wrapper ratio_slider">
 
-                        <div style="background-image: url({{ secure_asset('homefertility/imagenes/image2.png') }});"
+                        <div style="background-image: url({{ asset('homefertility/imagenes/image2.png') }});"
                             aria-hidden="true" class="item  foo foo foo">
                             <div class="container">
 
@@ -388,7 +388,7 @@
 
                     <div class="stretchy_wrapper ratio_slider">
 
-                        <div style="background-image: url({{ secure_asset('homefertility/imagenes/image3.png') }});"
+                        <div style="background-image: url({{ asset('homefertility/imagenes/image3.png') }});"
                             aria-hidden="true" class="item  foo foo foo">
                             <div class="container">
 
@@ -424,7 +424,7 @@
 
                     <div class="stretchy_wrapper ratio_slider">
 
-                        <div style="background-image: url({{ secure_asset('homefertility/imagenes/image4.png') }});"
+                        <div style="background-image: url({{ asset('homefertility/imagenes/image4.png') }});"
                             aria-hidden="true" class="item  foo foo foo">
                             <div class="container">
 
@@ -463,7 +463,7 @@
 
                     <div class="stretchy_wrapper ratio_slider">
 
-                        <div style="background-image: url({{ secure_asset('homefertility/imagenes/image5.png') }});"
+                        <div style="background-image: url({{ asset('homefertility/imagenes/image5.png') }});"
                             aria-hidden="true" class="item    ">
                             <div class="container">
 
@@ -501,7 +501,7 @@
 
                     <div class="stretchy_wrapper ratio_slider">
 
-                        <div style="background-image: url({{ secure_asset('homefertility/imagenes/image6.png') }});"
+                        <div style="background-image: url({{ asset('homefertility/imagenes/image6.png') }});"
                             aria-hidden="true" class="item    ">
                             <div class="container">
 
@@ -559,7 +559,7 @@
 
 
                                             <img decoding="async"
-                                                src="{{ secure_asset('homefertility/imagenes/image7.png') }}"
+                                                src="{{ asset('homefertility/imagenes/image7.png') }}"
                                                 alt="Tienda">
 
 
@@ -609,7 +609,7 @@
 
 
                                             <img decoding="async"
-                                                src="{{ secure_asset('homefertility/imagenes/image8.png') }}"
+                                                src="{{ asset('homefertility/imagenes/image8.png') }}"
                                                 alt="Equipo">
 
 
@@ -659,7 +659,7 @@
 
 
                                             <img decoding="async"
-                                                src="{{ secure_asset('homefertility/imagenes/image9.png') }}"
+                                                src="{{ asset('homefertility/imagenes/image9.png') }}"
                                                 alt="Representantes">
 
 
@@ -709,7 +709,7 @@
 
 
                                             <img decoding="async"
-                                                src="{{ secure_asset('homefertility/imagenes/image10.png') }}"
+                                                src="{{ asset('homefertility/imagenes/image10.png') }}"
                                                 alt="Recursos">
 
 
@@ -826,7 +826,7 @@
 
 
                                         <div class="figure  stretchy_wrapper ratio_16-9"
-                                            style="background-image:url('{{ secure_asset('homefertility/imagenes/image11.png') }}')">
+                                            style="background-image:url('{{ asset('homefertility/imagenes/image11.png') }}')">
                                         </div>
 
 
@@ -884,10 +884,10 @@
                                                 class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img
                                                     fetchpriority="high" decoding="async" width="300"
                                                     height="300"
-                                                    src="{{ secure_asset('homefertility/imagenes/image12.png') }}"
+                                                    src="{{ asset('homefertility/imagenes/image12.png') }}"
                                                     class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
                                                     alt="HOLSTEIN"
-                                                    srcset="{{ secure_asset('homefertility/imagenes/image12.png') }} 300w,"
+                                                    srcset="{{ asset('homefertility/imagenes/image12.png') }} 300w,"
                                                     sizes="(max-width: 300px) 100vw, 300px" />
                                                 <h2 class="woocommerce-loop-product__title">HOLSTEIN</h2>
                                                 <span class="price"><span
@@ -900,10 +900,10 @@
                                             <a href="#!"
                                                 class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img
                                                     decoding="async" width="300" height="300"
-                                                    src="{{ secure_asset('homefertility/imagenes/image13.png') }}"
+                                                    src="{{ asset('homefertility/imagenes/image13.png') }}"
                                                     class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
                                                     alt="Ungüento No. 100 | 50 GR"
-                                                    srcset="{{ secure_asset('homefertility/imagenes/image13.png') }} 300w,"
+                                                    srcset="{{ asset('homefertility/imagenes/image13.png') }} 300w,"
                                                     sizes="(max-width: 300px) 100vw, 300px" />
                                                 <h2 class="woocommerce-loop-product__title">PARDO SUIZO</h2>
                                                 <span class="price"><span
@@ -916,10 +916,10 @@
                                             <a href="#!"
                                                 class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img
                                                     decoding="async" width="300" height="300"
-                                                    src="{{ secure_asset('homefertility/imagenes/image14.png') }}"
+                                                    src="{{ asset('homefertility/imagenes/image14.png') }}"
                                                     class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
                                                     alt="AYRSHIRE"
-                                                    srcset="{{ secure_asset('homefertility/imagenes/image14.png') }} 300w,"
+                                                    srcset="{{ asset('homefertility/imagenes/image14.png') }} 300w,"
                                                     sizes="(max-width: 300px) 100vw, 300px" />
                                                 <h2 class="woocommerce-loop-product__title">AYRSHIRE</h2>
                                                 <span class="price"><span
@@ -993,7 +993,7 @@
 
 
                                                     <div class="figure  stretchy_wrapper ratio_1-1"
-                                                        style="background-image:url('{{ secure_asset('homefertility/imagenes/image15.png') }}')">
+                                                        style="background-image:url('{{ asset('homefertility/imagenes/image15.png') }}')">
                                                     </div>
 
 
@@ -1032,7 +1032,7 @@
 
 
                                                     <div class="figure  stretchy_wrapper ratio_1-1"
-                                                        style="background-image:url('{{ secure_asset('homefertility/imagenes/image16.png') }}')">
+                                                        style="background-image:url('{{ asset('homefertility/imagenes/image16.png') }}')">
                                                     </div>
 
 
@@ -1072,7 +1072,7 @@
 
 
                                                     <div class="figure  stretchy_wrapper ratio_1-1"
-                                                        style="background-image:url('{{ secure_asset('homefertility/imagenes/image17.png') }}')">
+                                                        style="background-image:url('{{ asset('homefertility/imagenes/image17.png') }}')">
                                                     </div>
 
 
@@ -1111,7 +1111,7 @@
 
 
                                                     <div class="figure  stretchy_wrapper ratio_1-1"
-                                                        style="background-image:url('{{ secure_asset('homefertility/imagenes/image18.png') }}')">
+                                                        style="background-image:url('{{ asset('homefertility/imagenes/image18.png') }}')">
                                                     </div>
 
 
@@ -1152,7 +1152,7 @@
 
 
                                                     <div class="figure  stretchy_wrapper ratio_1-1"
-                                                        style="background-image:url('{{ secure_asset('homefertility/imagenes/image19.png') }}')">
+                                                        style="background-image:url('{{ asset('homefertility/imagenes/image19.png') }}')">
                                                     </div>
 
 
@@ -1192,7 +1192,7 @@
 
 
                                                     <div class="figure  stretchy_wrapper ratio_1-1"
-                                                        style="background-image:url('{{ secure_asset('homefertility/imagenes/image20.png') }}')">
+                                                        style="background-image:url('{{ asset('homefertility/imagenes/image20.png') }}')">
                                                     </div>
 
 
@@ -1231,7 +1231,7 @@
 
 
                                                     <div class="figure  stretchy_wrapper ratio_1-1"
-                                                        style="background-image:url('{{ secure_asset('homefertility/imagenes/image21.png') }}')">
+                                                        style="background-image:url('{{ asset('homefertility/imagenes/image21.png') }}')">
                                                     </div>
 
 
@@ -1270,7 +1270,7 @@
 
 
                                                     <div class="figure  stretchy_wrapper ratio_1-1"
-                                                        style="background-image:url('{{ secure_asset('homefertility/imagenes/image22.png') }}')">
+                                                        style="background-image:url('{{ asset('homefertility/imagenes/image22.png') }}')">
                                                     </div>
 
 
@@ -1335,7 +1335,7 @@
             </section>
 
 
-            <section style="background-image: url('{{ secure_asset('homefertility/imagenes/image23.png') }}')"
+            <section style="background-image: url('{{ asset('homefertility/imagenes/image23.png') }}')"
                 class="vc_row wpb_row vc_row-fluid skincolored_section text-center transparent_film vcenter bgimage bg_vcenter">
                 <div class="container">
                     <div class="row">
@@ -1475,7 +1475,7 @@
                                     <li class="media">
 
                                         <a href="#!" class="media-photo"
-                                            style="background-image:url('{{ secure_asset('homefertility/imagenes/image24.png') }}')"></a>
+                                            style="background-image:url('{{ asset('homefertility/imagenes/image24.png') }}')"></a>
 
                                         <h5 class="media-heading">
                                             <a href="#!">
@@ -1489,7 +1489,7 @@
                                     <li class="media">
 
                                         <a href="#!" class="media-photo"
-                                            style="background-image:url('{{ secure_asset('homefertility/imagenes/image25.png') }}')"></a>
+                                            style="background-image:url('{{ asset('homefertility/imagenes/image25.png') }}')"></a>
 
                                         <h5 class="media-heading">
                                             <a href="#!">Hidratación
@@ -1502,7 +1502,7 @@
                                     <li class="media">
 
                                         <a href="#!" class="media-photo"
-                                            style="background-image:url('{{ secure_asset('homefertility/imagenes/image26.png') }}')"></a>
+                                            style="background-image:url('{{ asset('homefertility/imagenes/image26.png') }}')"></a>
 
                                         <h5 class="media-heading">
                                             <a href="#!">Mastitis
@@ -1952,7 +1952,7 @@
     {{-- <script type="text/javascript"
         src="https://www.laboratorioserma.com/wp-content/themes/healthflex/includes/core/assets/js/libs/totop/jquery.ui.totop.js?ver=de437bae823a7bd743fd934ee441be99"
         id="plethora-totop-js"></script> --}}
-    <script type="text/javascript" src="{{ secure_asset('homefertility/mijs/owl.carousel.min.js') }}" id="owlcarousel2-js">
+    <script type="text/javascript" src="{{ asset('homefertility/mijs/owl.carousel.min.js') }}" id="owlcarousel2-js">
     </script>
     {{-- <script type="text/javascript"
         src="https://www.laboratorioserma.com/wp-content/themes/healthflex/assets/js/libs/bootstrap.min.js?ver=de437bae823a7bd743fd934ee441be99"
@@ -2010,8 +2010,8 @@
         };
         /* ]]> */
     </script>
-    <script type="text/javascript" src="{{ secure_asset('homefertility/mijs/theme.js') }}" id="plethora-init-js"></script>
-    <script type="text/javascript" src="{{ secure_asset('homefertility/mijs/js_composer_front.min.js') }}"
+    <script type="text/javascript" src="{{ asset('homefertility/mijs/theme.js') }}" id="plethora-init-js"></script>
+    <script type="text/javascript" src="{{ asset('homefertility/mijs/js_composer_front.min.js') }}"
         id="wpb_composer_front_js-js"></script>
     <script>
         jQuery(function($) {
