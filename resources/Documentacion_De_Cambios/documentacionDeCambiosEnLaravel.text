@@ -1,0 +1,29 @@
+En config/forty.php comente Features::registration(), que es para evitar que los usuarios se registren ----------
+y active Features::emailVerification(),
+
+instalar esto para los pdf -----------
+composer require dompdf/dompdf
+
+cambios en el .env ----------------
+APP_ENV=production
+APP_DEBUG=false
+
+para hacer copia de seguridad a la bd -------------
+SIN FECHA mysqldump -usoluci42_solucionesisa766211 -p'SX1a!sKc~sUL' soluci42_solucionesisa | gzip > /home/soluci42/isavitalsas/storage/app/backupbdisa/database_backup.sql.gz
+CON FECHA mysqldump -usoluci42_solucionesisa766211 -p'SX1a!sKc~sUL' soluci42_solucionesisa | gzip > /home/soluci42/isavitalsas/storage/app/backupbdisa/database_backup-$( date +"\%Y_\%m_\%d" ).sql.gz
+CON FECHA Y HORA mysqldump -usoluci42_solucionesisa766211 -p'SX1a!sKc~sUL' soluci42_solucionesisa | gzip > /home/soluci42/isavitalsas/storage/app/backupbdisa/database_backup-$( date +"\%Y_\%m_\%d_\%H-\%M-\%S" ).sql.gz
+hay que crear la carpeta backupbdisa para que funcione
+
+para el recaptcha de los formularios contactenos y reclutas -------------
+composer require anhskohbo/no-captcha
+agregar configuracion en el .env
+
+para que no se extienda la autentificacion de dos factores desde el app si no desde otra plantilla-----------------
+app/view/components/AppLayout
+
+en config/jetstream habilitar para que los usuarios cargen su foto de perfil -----------
+
+zona horaria de laravel en el .env------------
+
+usuario ultima vez conectado
+crear Middleware UserActivity y luego agregar ese Middleware a app/bootstrap/app.php
